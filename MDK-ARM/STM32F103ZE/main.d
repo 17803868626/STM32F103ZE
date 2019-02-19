@@ -25,6 +25,7 @@ stm32f103ze\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 stm32f103ze\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 stm32f103ze\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 stm32f103ze\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+stm32f103ze\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 stm32f103ze\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
@@ -40,4 +41,5 @@ stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 stm32f103ze\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+stm32f103ze\main.o: ../Core/Inc/usart.h
 stm32f103ze\main.o: ../Core/Inc/gpio.h

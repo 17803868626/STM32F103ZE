@@ -146,6 +146,7 @@ void Func_LED0(void const * argument)
   for(;;)
   {
     osDelay(500);
+		printf("hello!");
 		HAL_GPIO_TogglePin(LED0_GPIO_Port,LED0_Pin);
   }
   /* USER CODE END Func_LED0 */
