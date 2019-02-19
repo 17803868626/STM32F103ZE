@@ -2,6 +2,7 @@
 "stm32f103ze\startup_stm32f103xe.o"
 "stm32f103ze\main.o"
 "stm32f103ze\gpio.o"
+"stm32f103ze\freertos.o"
 "stm32f103ze\stm32f1xx_it.o"
 "stm32f103ze\stm32f1xx_hal_msp.o"
 "stm32f103ze\stm32f1xx_hal_timebase_tim.o"
@@ -18,6 +19,15 @@
 "stm32f103ze\stm32f1xx_hal_flash.o"
 "stm32f103ze\stm32f1xx_hal_flash_ex.o"
 "stm32f103ze\system_stm32f1xx.o"
+"stm32f103ze\croutine.o"
+"stm32f103ze\event_groups.o"
+"stm32f103ze\list.o"
+"stm32f103ze\queue.o"
+"stm32f103ze\tasks.o"
+"stm32f103ze\timers.o"
+"stm32f103ze\cmsis_os.o"
+"stm32f103ze\heap_4.o"
+"stm32f103ze\port.o"
 --library_type=microlib --strict --scatter "STM32F103ZE\STM32F103ZE.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
